@@ -1,14 +1,14 @@
 {
-    "name": "bariton",
+    "name": "crokta",
     "version": "2.2.0",
-    "description": "Bariton - IT Machine Learning React Next Template",
+    "description": "Crokta - Engineering is our DNA",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
     },
-    "author": "EnvyTheme.com",
+    "author": "Daniel Ale",
     "license": "ISC",
     "dependencies": {
         "animate.css": "^4.1.1",
