@@ -136,7 +136,7 @@ const Footer = () => {
             <div className='row align-items-center'>
               <div className='col-lg-6 col-md-6 col-sm-6'>
                 <p>
-                  Copyright &copy;{currentYear} Bariton. All Rights Reserved{' '}
+                  Copyright &copy;{currentYear} Crokta. All Rights Reserved{' '}
                   <a href='https://crokta.com' target='_blank'>
                     Crokta
                   </a>
