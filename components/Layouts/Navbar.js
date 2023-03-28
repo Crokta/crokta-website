@@ -46,17 +46,8 @@ const Navbar = () => {
         <div className='main-nav'>
           <div className='container-fluid'>
             <nav className='navbar navbar-expand-md navbar-light'>
-              <Link href='/' className='navbar-brand'>
-                <img
-                  src='/images/white-logo.png'
-                  className='main-logo'
-                  alt='logo'
-                />
-                <img
-                  src='/images/black-logo.png'
-                  className='optional-logo'
-                  alt='logo'
-                />
+              <Link href='/' className='navbar-brand navbar-placeholder'>
+                Crokta Engineering
               </Link>
 
               <button
