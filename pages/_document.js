@@ -20,7 +20,7 @@ class MyDocument extends Document {
           />
           <link rel='icon' type='image/png' href='/favicon.png'></link>
 
-          <script
+          {/* <script
             async
             src='https://www.googletagmanager.com/gtag/js?id=G-6N4MN32WCB'
           ></script>
@@ -28,7 +28,7 @@ class MyDocument extends Document {
             window.dataLayer = window.dataLayer || []; function gtag()
             {dataLayer.push(arguments)}
             gtag('js', new Date()); gtag('config', 'G-6N4MN32WCB');
-          </script>
+          </script> */}
         </Head>
         <body>
           <Main />
