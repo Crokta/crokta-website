@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className='container-fluid'>
             <nav className='navbar navbar-expand-md navbar-light'>
               <Link href='/' className='navbar-brand navbar-placeholder'>
-                Crokta Engineering
+                <img src='/images/temlogo.png' alt='Crokta' style={{ height: 50 }} />
               </Link>
 
               <button
