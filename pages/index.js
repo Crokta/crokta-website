@@ -9,12 +9,13 @@ import FeedbackSlider from '../components/Common/FeedbackSlider';
 import BlogPost from '../components/Common/BlogPost';
 import Footer from '../components/Layouts/Footer';
 import ConsultUsForm from '../components/Common/ConsultUsForm';
+import Index from './mlbootcamp';
+
 
 const Index = () => {
   return (
     <>
       <Navbar />
-
       <MainBanner />
 
       <About />
@@ -32,6 +33,8 @@ const Index = () => {
       <ConsultUsForm />
 
       <Footer />
+{/* <Index /> */}
+
     </>
   );
 };
