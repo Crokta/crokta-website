@@ -92,7 +92,7 @@ const BootCampCard = ({ bootcamp }) => {
 
                 <div></div>
               </div>
-              <div className="input-holder">
+              <div className="input-holder" style={{marginTop:'20px'}}>
                 <label className="label">
                   Were you referred by a Partner, kindly input the name of the
                   Partner Organization
