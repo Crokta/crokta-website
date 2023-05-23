@@ -71,22 +71,23 @@ const BootCampCard = ({ bootcamp }) => {
                 </span>
                 <div className="label-radio">
                   {" "}
-                  <label style={{marginRight:'5px'}}> None</label>
-                  <input  type="radio" />{" "}
+                  <label className="label"> None</label>
+                  <input  type="radio" className="radio-input"/>{" "}
                 </div>
                 <div className="label-radio">
-                  <label  style={{marginRight:'5px'}}> Beginner </label>
-                  <input  type="radio" />{" "}
+                  <label  className="label"> Beginner </label>
+                  <input  type="radio" className="radio-input"/>{" "}
                 </div>
                 <div className="label-radio">
-                  <label style={{marginRight:'5px'}}> Intermediate </label>
-                  <input  type="radio" />{" "}
+                  <label className="label"> Intermediate </label>
+                  <input  type="radio" className="radio-input"/>{" "}
                 </div>
                 <div className="label-radio">
-                  <label style={{marginRight:'5px'}}> Advanced (with Production Experience) </label>
+                  <label className="label"> Advanced (with Production Experience) </label>
                   <input
                   
                     type="radio"
+                    className="radio-input"
                   />{" "}
                 </div>
 

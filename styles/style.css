@@ -10863,6 +10863,15 @@ Footer Wrap Area CSS
   /* align-items: center; */
 }
 
+.container .card .wrapper .form .input-holder .label-radio .label {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.container .card .wrapper .form .input-holder .radio-input {
+  cursor: pointer;
+}
+
 .container .card .button-holder {
   margin-top: 20px;
 }
