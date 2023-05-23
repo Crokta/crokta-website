@@ -10870,6 +10870,8 @@ Footer Wrap Area CSS
 
 .container .card .wrapper .form .input-holder .radio-input {
   cursor: pointer;
+  padding: 8px;
+  width: 14px;
 }
 
 .container .card .button-holder {
