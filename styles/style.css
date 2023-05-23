@@ -10875,6 +10875,10 @@ Footer Wrap Area CSS
   border-radius: 4px;
 }
 
+.container .card .button-holder .button:hover {
+  background-color: deepskyblue;
+}
+
 /* rounded-[5px] bg-transparent border placeholder:text-slate-400 outline-none 
   transition-all duration-200 ease-linear focus:placeholder:opacity-100
    motion-reduce:transition-none focus:outline-none focus:border-border-primary 
