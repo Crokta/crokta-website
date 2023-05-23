@@ -99,9 +99,16 @@ const BootCampCard = ({ bootcamp }) => {
                 </label>
                 <input className="input" />
               </div>
+              
             </form>
+
           </div>
+<div className="button-holder">
+<button className="button">Submit</button>
+
+</div>
         </div>
+
       </div>
     </>
   );

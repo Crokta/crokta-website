@@ -10863,6 +10863,18 @@ Footer Wrap Area CSS
   /* align-items: center; */
 }
 
+.container .card .button-holder {
+  margin-top: 20px;
+}
+
+.container .card .button-holder .button {
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+}
+
 /* rounded-[5px] bg-transparent border placeholder:text-slate-400 outline-none 
   transition-all duration-200 ease-linear focus:placeholder:opacity-100
    motion-reduce:transition-none focus:outline-none focus:border-border-primary 
