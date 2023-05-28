@@ -53,10 +53,7 @@ try {
   const {firstName, lastName, middleName, experience, referrer, currentJob, email } = regForm
   const payload =  {firstName, lastName, middleName, experience, referrer, currentJob, email }
   console.log('paint', payload)
-  const response = await axios.post(url, {
-    method: 'POST', payload
-    
-  })
+  const response = await axios.post(url,  payload)
   console.log('res', response)
   alertContent()
   setRegForm(regDefaultValues)
