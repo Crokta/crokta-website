@@ -43,7 +43,6 @@ const isButtonSelected = (value) => {
 const handleChange =(e) => {
   const {name, value} = e.target;
   setRegForm((prev) => ({...prev, [name] : value}))
-  console.log('change', regForm)
 }
 
 const handleSubmit = async (e) => {
