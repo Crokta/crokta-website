@@ -22,8 +22,8 @@ currentJob:''
 
 const alertContent = () => {
   MySwal.fire({
-    // title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    title: "Congratulations!",
+    text: "Your message was successfully send and will get back to you soon",
     icon: "success",
     timer: 3000,
     timerProgressBar: true,
@@ -33,22 +33,6 @@ const alertContent = () => {
 
 const BootCampCard = ({ bootcamp }) => {
 const [regForm, setRegForm] = useState(regDefaultValues)
-//   const mlRegForm = yup.object({
-//     firstName : yup.string().required('first name is required'),
-//     middleName: yup.string(),
-//     lastName: yup.string().required('last name is required'),
-//     email: yup.string().email('invalid email format'),
-//     phoneNumber: yup.string().required('phone number is required'),
-//     experience: yup.string().required('experience level is require'),
-//     referrer: yup.string(),
-//     currenJob: yup.string().required('current job is required')
-//   })
-// const validate = yupResolver(mlRegForm);
-
-// const {handleSubmit, reset} = useForm({
-//   resolver: validate,
-//   defaultValues: regDefaultValues
-// })
 
 const isButtonSelected = (value) => {
   if (regForm?.experience === value) {
@@ -61,17 +45,6 @@ const handleChange =(e) => {
   setRegForm((prev) => ({...prev, [name] : value}))
   console.log('change', regForm)
 }
-// const mlregistration = (values) => {
-//   const payload ={
-//     firstName: values.firstName,
-//     middleName: values.middleName,
-//     lastName: values.lastName,
-//     email: values.email,
-//     currentJob: values.currentJob,
-//     referrer: values.referrer
-//   }
-//   console.log('pay', payload)
-// }
 
 const handleSubmit = async (e) => {
   e.preventDefault()
@@ -80,16 +53,14 @@ try {
   const {firstName, lastName, middleName, experience, referrer, currentJob, email } = regForm
   const payload =  {firstName, lastName, middleName, experience, referrer, currentJob, email }
   console.log('paint', payload)
-  const response = await fetch(url, {
+  await fetch(url, {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({...payload})
   })
   alertContent()
   setRegForm(regDefaultValues)
-  console.log('ress', response)
 } catch(error){
-  console.log('er', error)
 }
 }
 
