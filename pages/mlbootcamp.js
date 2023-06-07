@@ -16,11 +16,11 @@ const Index = () => {
     link: 'https://www.udemy.com/course/machine-learning-bootcamp/',
   };
   return (
-    <>
-      <Navbar />
+    <div div className='container'>
+      {/* <Navbar /> */}
       <BootCampCard bootcamp={bootcamp} />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -44,7 +44,7 @@ const Navbar = () => {
     <>
       <div id='navbar' className='navbar-area'>
         <div className='main-nav'>
-          <div className='container-fluid'>
+          <div className=''>
             <nav className='navbar navbar-expand-md navbar-light'>
               <Link href='/' className='navbar-brand navbar-placeholder'>
                 <img
