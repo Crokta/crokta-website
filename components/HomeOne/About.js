@@ -27,7 +27,7 @@ const About = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="about-content"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -35,18 +35,19 @@ const About = () => {
               >
                 <h2>Engaging New Audiences Through Smart Approach</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
+                  Discover Crokta, your go-to digital growth software company!
+                  We excel in elevating your business value with strategic
+                  planning, customer development, and innovative growth
+                  techniques. Let us transform your online presence and drive
+                  success!
                 </p>
-                <p>
+                {/* <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don't look
                   even slightly believable. If you are going to use a passage of
                   Lorem Ipsum, you need to be sure there isn't.
-                </p>
+                </p> */}
 
                 <Link href="/about" className="btn btn-primary">
                   Discover More

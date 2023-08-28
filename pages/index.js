@@ -9,7 +9,7 @@ import FeedbackSlider from '../components/Common/FeedbackSlider';
 import BlogPost from '../components/Common/BlogPost';
 import Footer from '../components/Layouts/Footer';
 import ConsultUsForm from '../components/Common/ConsultUsForm';
-import Index from './mlbootcamp';
+//  import Index from './mlbootcamp';
 
 
 const Index = () => {
@@ -24,13 +24,13 @@ const Index = () => {
 
       <Webinar />
 
-      <PartnerContent />
+      {/* <PartnerContent /> */}
 
-      <FeedbackSlider />
+      {/* <FeedbackSlider /> */}
 
-      <BlogPost />
+      {/* <BlogPost /> */}
 
-      <ConsultUsForm />
+      {/* <ConsultUsForm /> */}
 
       <Footer />
 {/* <Index /> */}
