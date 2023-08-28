@@ -9,13 +9,14 @@ const Services = () => {
           <div className="section-title">
             <h2>We Offer Professional Solutions</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We specialized in developing top-quality websites, mobile
+              applications and other custom digital solutions to meet our
+              client's unique needs.
             </p>
           </div>
 
           <div className="row justify-content-center">
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -30,13 +31,12 @@ const Services = () => {
                   <Link href="/service-details">Data Analysts</Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -51,13 +51,12 @@ const Services = () => {
                   <Link href="/service-details">Automatic Optimization</Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -72,13 +71,12 @@ const Services = () => {
                   <Link href="/service-details">Security & Surveillance</Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                 
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -95,13 +93,12 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -116,13 +113,12 @@ const Services = () => {
                   <Link href="/service-details">Software Engineers</Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -137,8 +133,7 @@ const Services = () => {
                   <Link href="/service-details">IT Professionals</Link>
                 </h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                 
                 </p>
               </div>
             </div>

@@ -7,7 +7,7 @@ const FeaturedServices = () => {
       <div className="featured-services-area">
         <div className="container">
           <div className="row justify-content-center">
-            <div 
+            <div
               className="col-lg-4 col-md-6 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -23,14 +23,11 @@ const FeaturedServices = () => {
                     Robotic Process Automation
                   </Link>
                 </h3>
-                <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
-                </p>
+                <p>We offer end-to-end RPA</p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-md-6 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -45,13 +42,13 @@ const FeaturedServices = () => {
                   <Link href="/service-details">Cognitive Automation</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
+                   Artificial intelligence to better automate critical
+                  processes
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-md-6 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -66,8 +63,7 @@ const FeaturedServices = () => {
                   <Link href="/service-details">Cognitive Engagement</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
+                 Cognitive engagement with technology
                 </p>
               </div>
             </div>
